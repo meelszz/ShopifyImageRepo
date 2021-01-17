@@ -1,4 +1,6 @@
 <h2>Your Images</h2>
 <% images.forEach(image => { %>
-    <div><%= image.name %></div>
+    <div>
+        <img src="<%=image.imageUploadPath%>">
+    </div>
 <% }) %>
